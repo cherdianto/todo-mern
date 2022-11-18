@@ -1,4 +1,15 @@
-# Simple Todo App with MERN
+# API for Todo App with MERN
+CRUD RestAPI for Todo App
+
+API Endpoints
+- create [POST] /api/add-todo
+- update [PUT] /api/update-todo/:id
+- read all [GET] /api/todos
+- read single [GET] /api/todo/:id
+- delete single [DELETE] /api/delete-todo/:id
+
+
+## About the app
 A simple todo-app with MERN stack
 
 Features:
