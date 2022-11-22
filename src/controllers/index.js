@@ -56,11 +56,8 @@ export const addTodo = async (req, res) => {
 }
 
 export const updateTodo = async (req, res) => {
-    console.log('updateTodo server')
     const id = req.params.id
     const data = req.body
-
-    console.log(data)
 
     if (!data.title || !data.status || !id) {
         res.status(401).send('ValidationError: title or status or id is not found')
